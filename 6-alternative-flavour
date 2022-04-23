@@ -1,0 +1,11 @@
+const inventory = ['item1', 'item2']
+const person = {
+    name: 'bob', 
+    surname: 'cum',
+    hasDog: false,
+}
+
+const legs = 4
+
+module.exports.singlePerson = {person, inventory}
+module.exports.dog = {legs}
